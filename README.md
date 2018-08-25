@@ -29,6 +29,6 @@ Some notes about the implementation:
 
 - The cmake file is blunded with a BUILD_TESTS flag for tests purposes. Once cmake is called with -DBUILD_TESTS=ON, make command will try do clone localy the googletest framework and then compile it and link.
 
-- The current version just provide a single Test Case for the ```forward``` public method. It is strongly recommended to implement more test case to explore more paths into ```forward``` and for the other features like constructors and the ```train``` method.
+- The current version just provide a single Test Case for the ```forward``` public method. It is strongly recommended to implement more test cases to explore more paths on ```forward``` and also for the other features like constructors and the ```train``` method.
 
 
